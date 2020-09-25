@@ -4,35 +4,89 @@ body {
 }
 
 .header {
+  background: #1d8af1;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .registration-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+
+  border: 1px solid lightgray;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
 }
 
 .text-field {
+  max-width: 400px;
+  align-self: center;
 }
 
 .radio-label,
 .checkbox-label {
+  padding-left: 0px;
+  align-self: flex-start;
 }
 
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+
 label {
+  text-align: center;
 }
 
 .section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+
 }
 
 .section > label {
+  align-self: flex-start;
+  text-align: left;
+}
+
+.section > div {
+  align-self: flex-start;
 }
 
 select {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  flex-wrap: wrap;
 }
 
 textarea {
+  width: 90%;
+  margin: 10px;
 }
 
 .form-button {
+  width: 80px;
+  height: 40px;
+  align-self: center;
+  border-radius: 2px;
+  border: solid 1px gray;
+  margin-bottom: 10px;
 }
 
 .form-button:hover {
+  background-color:  #1d8af1;
+  cursor: auto;
+  transition: 2s;
 }

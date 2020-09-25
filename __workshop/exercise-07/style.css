@@ -1,7 +1,59 @@
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .mobile-nav-button img {
   width: 18px;
+  
 }
+
+
+/*display only after shrinked to certian size*/
+.mobile-nav{
+  display: none;
+  margin-top: 10px
+}
+
+/*remove the bullet, set li to inline*/
+ul {
+  list-style-type: none;
+}
+li{
+  display: inline;
+  margin-right: 20px;
+}
+
+/*display the list as flex*/
+.header{
+  position: relative;
+}
+
+/*adjust thposition of nav*/
+nav{
+  position: absolute;
+  right: 5%;
+  top: 0%;
+}
+
+/*transform to hamburger when 600px reached*/
+@media screen and (max-width: 800px) {
+
+  /*show the button*/
+  nav:last-of-type{
+    display: block;
+  }
+
+  /*hide the content*/
+  nav.desktop-nav{
+    display: none;
+  }
+
+    /*add hover effect with the icon
+  .mobile-nav-button:hover .desktop-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }*/
+}
+

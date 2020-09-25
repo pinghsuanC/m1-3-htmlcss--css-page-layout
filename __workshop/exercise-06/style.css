@@ -6,8 +6,60 @@ body {
   background-color: #383737;
 }
 
-.nav-dropdown {
+.nav-items {
   color: #fff;
   text-decoration: none;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+.dropdown {
+  position: relative;
   display: inline-block;
 }
+
+.dropdown-label{
+  margin-right:30px;
+  margin-left: 20px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  min-height: 90px;
+  text-align: center;
+}
+
+.dropdown-content--item{
+  background-color: #03a9f4;
+
+  width: 100%;
+  padding: 10px;
+  padding-left:5px;
+  padding-right:20px;
+  margin-left: -10px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dropdown-content--item:hover {
+  background-color: #1e90ff;
+}
+
+/*
+#03a9f4 light blue
+#1e90ff;
+*/

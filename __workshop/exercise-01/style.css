@@ -1,0 +1,47 @@
+.container, html, body {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+div {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.content {
+    font-size: 2em;
+    flex-grow: 33; 
+
+
+}
+
+div.header {
+    background-color: #3a3633;
+    color: white;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+
+div.footer {
+    background-color: #3a3633;
+    color: white;
+    align-self: flex-end;
+    flex-grow: 1; 
+
+}

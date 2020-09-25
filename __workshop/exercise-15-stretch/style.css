@@ -1,0 +1,70 @@
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 3px;
+    border: px solid black;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: none;
+}
+
+
+.btn-primary{
+    color:#037bff;
+    border-color:#037bff;
+}
+
+.btn-secondary{
+    color:#6c757d;
+    border-color:#6c757d;
+}
+
+.btn-success{
+    color:#889096;
+    border-color:#889096;
+}
+
+.btn-danger{
+    color:#dc3545;
+    border-color:#dc3545;
+}
+
+.btn-warning{
+    color:#ffc107;
+    border-color:#ffc107;
+}
+.btn-info{
+    color:#15a2b8;
+    border-color:#15a2b8;
+}
+
+.btn-light{
+    color:#f8f9fa;
+    border-color:#f8f9fa;
+}
+
+.btn-dark{
+    color:#343a40;
+    border-color:#343a40;
+}
+
+.btn-link{
+    color:#459cff;
+    border-color:#459cff;
+}
+
+
+
+
+button:hover{
+    cursor:pointer;
+}
+
+button:focus{
+    outline: none;
+    transform: translateY(1px);
+    filter: saturate(150%);
+}

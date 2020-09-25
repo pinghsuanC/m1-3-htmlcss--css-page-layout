@@ -1,0 +1,69 @@
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
+.btn-primary{
+    background-color:#037bff;
+    border-color:#81beff;
+}
+
+.btn-secondary{
+    background-color:#6c757d;
+    border-color:#889096;
+}
+
+.btn-success{
+    background-color:#889096;
+    border-color:#52b868;
+}
+
+.btn-danger{
+    background-color:#dc3545;
+    border-color:#f0aab0;
+}
+
+.btn-warning{
+    background-color:#ffc107;
+    border-color:#fff3d0;
+    color: black;
+}
+.btn-info{
+    background-color:#15a2b8;
+    border-color:#d3eef2;
+}
+
+.btn-light{
+    background-color:#f8f9fa;
+    border-color:#fafafb;
+    color: black;
+}
+
+.btn-dark{
+    background-color:#343a40;
+    border-color:#d2d3d5;
+}
+
+.btn-link{
+    background-color:#ffffff;
+    border-color:#ffffff;
+}
+
+
+
+button:hover{
+    cursor:pointer;
+}
+
+button:focus{
+    outline: none;
+    transform: translateY(1px);
+    filter: saturate(150%);
+}

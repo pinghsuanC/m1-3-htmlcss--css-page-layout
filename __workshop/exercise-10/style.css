@@ -7,10 +7,55 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  
 }
 
+/*animation on the text*/
 .fast {
+  position: absolute;
+  bottom: 50%;
+  animation-name: fastAnime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-.cool {
+@keyframes fastAnime {
+  from {padding-left: 300px;
+    opacity: 0;}
+
+  to {padding-left: 0px;
+    opacity: 1;}
 }
+
+
+/*cool : use hover and focus*/
+.cool {
+  position: absolute;
+  bottom: 35%;
+  /*modify style*/
+  text-transform: uppercase;
+  background-color: #1b84fe;
+  color: white;
+  padding: 15px;
+  border: 1px solid #9ca9bb;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 3px #9ca9bb;
+}
+
+.cool:hover{
+  cursor: pointer;
+  transform: scale(1.4) rotate(720deg);
+  transition: 2s;
+}
+
+.cool:active{
+  border: 1px solid #9ca9bb;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+button {
+  outline: none;
+}
+
